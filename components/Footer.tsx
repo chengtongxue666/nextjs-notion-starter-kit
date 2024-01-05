@@ -52,7 +52,7 @@ export const FooterImpl: React.FC = () => {
         )}
       </div>
 
-{/*       <div className={styles.social}>
+      <div className={styles.social}>
         {config.twitter && (
           <a
             className={styles.twitter}
@@ -131,7 +131,7 @@ export const FooterImpl: React.FC = () => {
             title={`YouTube ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
-          > */}
+          >
             <FaYoutube />
           </a>
         )}
